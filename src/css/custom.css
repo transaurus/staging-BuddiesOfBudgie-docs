@@ -1,0 +1,170 @@
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/fonts/Poppins-Bold.ttf");
+}
+
+/* You can override the default Infima variables here. */
+:root {
+  --budgie-green: #6bca81;
+  --marble: #f5f5f5;
+  --lightgrey: #eeeeee;
+  --greyish: #666666;
+  --grey-md: #424242;
+  --greydark: #333333;
+  --dark: #1f1f1f;
+
+  --ifm-card-background-color: var(--marble);
+  --ifm-color-primary: var(--budgie-green);
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --ifm-footer-background-color: var(--budgie-green);
+  --ifm-navbar-background-color: var(--lightgrey);
+  --ifm-tabs-padding-vertical: 0.5rem;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  /* Search */
+  --docsearch-searchbox-background: white;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme="dark"] {
+  --ifm-card-background-color: var(--dark);
+  --ifm-color-primary: var(--budgie-green);
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-navbar-background-color: var(--greydark);
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+[data-theme="dark"] .DocSearch-Modal {
+  --docsearch-modal-background: var(--dark);
+  --docsearch-footer-background: var(--dark);
+  --docsearch-searchbox-shadow: white;
+  --docsearch-highlight-color: var(--greyish);
+  --docsearch-hit-background: var(--greydark);
+}
+
+.Poppins,
+h1,
+h2,
+h3 {
+  font-family: "Poppins";
+}
+
+.DocSearch-Button {
+  --docsearch-searchbox-background: white;
+}
+
+.DocSearch-Hit-title mark {
+  font-weight: bold;
+}
+
+[data-theme="dark"] .DocSearch-Logo svg * {
+  fill: white;
+}
+
+[data-theme="dark"] .DocSearch-Hit-title mark {
+  --docsearch-highlight-color: var(--budgie-green);
+  --docsearch-hit-active-color: var(--budgie-green);
+}
+
+[data-theme="dark"] .DocSearch-Button {
+  --docsearch-searchbox-background: var(--dark);
+}
+
+[data-theme="dark"] .DocSearch-Commands-Key,
+[data-theme="dark"] .DocSearch-Button-Key {
+  --docsearch-key-gradient: var(--greyish);
+  --docsearch-key-shadow: var(--greydark);
+  color: white;
+}
+
+[data-theme="light"] .Category svg * {
+  fill: var(--grey-md);
+}
+
+.GetBudgieButton {
+  border-radius: 20px;
+  color: white;
+}
+
+.NormalWeight {
+  font-weight: normal;
+}
+
+.card--bg {
+  background-color: var(--ifm-card-background-color);
+  border-radius: var(--ifm-card-border-radius);
+}
+
+.footer {
+  --ifm-footer-background-color: var(--ifm-navbar-background-color);
+  --ifm-footer-link-color: var(--ifm-navbar-link-color);
+  --ifm-footer-color: var(--ifm-font-color-base);
+  --ifm-footer-title-color: var(--ifm-navbar-link-color);
+}
+
+[data-theme="light"] .PersonLinkHeaderAvatar {
+  box-shadow: 0 0 10px var(--greydark);
+}
+
+[data-theme="light"] .PersonWebsiteIcon {
+  fill: var(--greydark);
+}
+
+[data-theme="light"] .HomepageHeader {
+  background-color: var(--lightgrey);
+  color: var(--grey-md);
+}
+
+[data-theme="light"] .OSCard {
+  box-shadow: var(--ifm-global-shadow-md);
+}
+
+[data-theme="dark"] .HomepageHeader {
+  background-color: var(--greydark);
+  color: var(--lightgrey);
+}
+
+[data-theme="dark"] .PersonWebsiteIcon {
+  fill: white;
+}
+
+[data-theme="dark"] .OSCard {
+  box-shadow: var(--ifm-global-shadow-lw);
+}
+
+.atcb-button-wrapper,
+.atcb-text,
+.atcb-button {
+  box-shadow: none !important;
+  font-family: "Poppins" !important;
+}
+
+.upcomingEventRow {
+  background-color: var(--ifm-navbar-background-color);
+}
+
+.upcomingEventRow .MuiTableCell-root {
+  border-bottom: 0;
+}

@@ -1,0 +1,10 @@
+{
+  "version.label": {
+    "message": "Legacy (X11): 10.9.x",
+    "description": "The label for version 10.9.x"
+  },
+  "sidebar.developer.category.Developer Workflow": {
+    "message": "Developer Workflow",
+    "description": "The label for category 'Developer Workflow' in sidebar 'developer'"
+  }
+}

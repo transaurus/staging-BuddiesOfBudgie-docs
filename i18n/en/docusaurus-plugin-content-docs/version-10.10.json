@@ -1,0 +1,14 @@
+{
+  "version.label": {
+    "message": "Latest Stable (Wayland): Budgie 10.10",
+    "description": "The label for version 10.10"
+  },
+  "sidebar.developer.category.Developer Workflow": {
+    "message": "Developer Workflow",
+    "description": "The label for category 'Developer Workflow' in sidebar 'developer'"
+  },
+  "sidebar.developer.category.Meta (Documentation)": {
+    "message": "Meta (Documentation)",
+    "description": "The label for category 'Meta (Documentation)' in sidebar 'developer'"
+  }
+}

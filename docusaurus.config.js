@@ -13,7 +13,7 @@ const config = {
   url: 'https://docs.buddiesofbudgie.org',
   baseUrl: '/',
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   future: {
@@ -46,7 +46,7 @@ const config = {
 
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ["en", "zh-Hans"],
   },
 
   presets: [

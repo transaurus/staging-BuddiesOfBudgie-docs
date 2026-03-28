@@ -1,0 +1,18 @@
+{
+  "sidebar.developer.category.Developer Workflow": {
+    "message": "Developer Workflow",
+    "description": "The label for category Developer Workflow in sidebar developer"
+  },
+  "sidebar.developer.category.Meta (Documentation)": {
+    "message": "Meta (Documentation)",
+    "description": "The label for category Meta (Documentation) in sidebar developer"
+  },
+  "sidebar.developer.category.Lab (Experimental / Testing)": {
+    "message": "Lab (Experimental / Testing)",
+    "description": "The label for category Lab (Experimental / Testing) in sidebar developer"
+  },
+  "version.label": {
+    "message": "Current (Budgie 11)",
+    "description": "The label for version current"
+  }
+}
